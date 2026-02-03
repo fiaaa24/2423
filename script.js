@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Save home state
   const homeState = {
-    text: "Will you be my Valentine?",
+    text: "DO YOU LOVE ME?",
     gif: "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW5lenZyZHI5OXM2eW95b3pmMG40cWVrMDhtNjVuM3A4dGNxa2g2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/VM1fcpu2bKs1e2Kdbj/giphy.gif"
   };
 
