@@ -173,4 +173,3 @@ function createHeart() {
 }
 
 setInterval(createHeart, 600);
-
