@@ -1,0 +1,123 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9e3e3;
+  font-family: 'Arial', sans-serif;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #d32f2f;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.yes-button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.no-button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gif_container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.fade-out {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: all 0.5s ease;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.6s ease;
+}
+
+.hidden {
+  display: none;
+}
+.fade-out {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: all 0.5s ease;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.6s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+.back-button {
+  margin-top: 25px;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#love-background {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.floating-heart {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  animation: floatHeart linear infinite;
+  opacity: 0.8;
+}
+
+@keyframes floatHeart {
+  from {
+    transform: translateY(110vh) scale(var(--scale)) rotate(0deg);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-120vh) scale(var(--scale)) rotate(10deg);
+    opacity: 0;
+  }
+}
+
+
